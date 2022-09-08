@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <title>create a new account</title>
+</head>
+<body class="body3">
+    <header>
+        <a href="0.html"
+        class="logo">COURSEB</a>
+        <nav class="nav">
+            <a href="#contact">Contact</a>
+            <a href="0.html">logout</a>
+        </nav>
+    </header>
+    <!-- انشاء حساب جديد في موقعنها للمستخدم -->
+    <form class="form3" action="1.html" method="post">
+        <div>
+            <input class="name" type="text" name="First name" placeholder="First Name" required>
+            <input class="name" type="text" name="Last name" placeholder="Last Name" required>
+        </div>
+        <div>
+            <input class="email2" type="email" name="email" placeholder="E-Mail" required>
+            <input class="pass2" minlength="8" type="Password" name="pass" placeholder="Password" required>
+            <input class="pass3" minlength="8" type="Password" name="pass" placeholder="Password Confirm" required>
+        </div>
+        <div>
+            <label class="birth" for="date">Date of Birth</label>
+            <input class="date" id="date" type="date" name="Date" required>
+        </div>
+        <div>
+            <input class="phone" minlength="11" maxlength="11" type="tel" name="phone" placeholder="Phone Number" required>
+            <input class="phone" minlength="6" maxlength="6" type="text" name="code" placeholder="Code" required>
+        </div>
+        <hr>
+        <input class="confirm" type="submit" value="Confirm">
+    </form>
+</body>
+</html>

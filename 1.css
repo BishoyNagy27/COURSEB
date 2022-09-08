@@ -1,0 +1,488 @@
+* {
+    text-decoration: none;
+}
+
+.img {
+    background-image: url(icon1.jpg) ;
+    background-size: 1700px;
+}
+
+.div1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+h1 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 50px;
+    background-color: #6772e5a8;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 15px;
+    cursor:default;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+}
+
+.div2 {
+    background-color: #f9f9fabb;
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    width: 550px;
+    position: relative;
+    top: 112px;
+    left: 620px;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+}
+
+.button1 {
+    text-decoration: none;
+    padding: 10px 200px;
+    margin: 15px;
+    font-size: 30px;
+    display: inline-block;
+    left: 20px;
+    text-transform: capitalize;
+    background-color: #5360ebcf;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+}
+
+.button1:hover {
+    background-color: #6772e5;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+}
+
+hr {
+    margin: 20px;
+}
+
+.a1 {
+    color: #ddd;
+}
+
+.button2 {
+    text-decoration: none;
+    padding: 10px 87px;
+    margin: 15px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #5360ebcf;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+}
+
+.button2:hover {
+    background-color: #6772e5;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+}
+
+.facebook0 {
+    font-size: 40px;
+    margin: 10px 20px;
+    color: #065ac8;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+}
+
+.facebook0:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+    border-radius: 10px;
+}
+
+.github0 {
+    font-size: 40px;
+    margin: 20px;
+    color: #000;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+}
+
+.github0:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+    border-radius: 50%;
+}
+
+.twitter0 {
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(49, 101, 197);
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+}
+
+.twitter0:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+    border-radius: 30%;
+}
+
+.gmail0 {
+    font-size: 40px;
+    margin: 20px;
+    color: darkred;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+}
+
+.gmail0:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+    border-radius: 50%;
+}
+
+/* ---------------------------------1.html---------------------------------------------------------------------------- */
+
+.body1 {
+    background-image: linear-gradient(220deg,rgb(43, 0, 255),white);
+    height: 750px;
+}
+
+header {
+    background-color: rgb(245, 243, 243);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left:50px;
+    position: relative;
+    right: 70px;
+}
+
+.nav a:hover {
+    color: #601cfc;
+}
+
+.form1 {
+    padding: 100px;
+    width: 350px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.835);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+}
+
+.forgot {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: initial;
+}
+
+.forgot:hover {
+    color: blue;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: capitalize;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+}
+
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.473),0 17px 50px 0 rgba(0, 0, 0, 0.473);
+}
+
+.login {
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0564e0;
+    font-style: initial;
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+.login:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.473),0 17px 50px 0 rgba(0, 0, 0, 0.473);
+}
+
+#a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.email {
+    font-size: 25px;
+    padding: 14px 16px ;
+    border: gray solid 1px ;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.email:hover {
+    border: 1px solid blue;
+}
+
+.pass {
+    font-size: 25px;
+    padding: 14px 16px;
+    border: gray solid 1px ;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.pass:hover {
+    border: 1px solid blue;
+}
+
+/* 
+---------------------icons
+*/
+.icon1 {
+    font-size: 35px;
+}
+
+.facebook {
+    padding: 10px ;
+    color: #065ac8;
+}
+
+.facebook:hover {
+    background-color: aliceblue;
+}
+
+.github {
+    padding: 10px ;
+    color: #000;
+}
+
+.github:hover {
+    background-color: aliceblue;
+}
+
+.twitter {
+    padding: 10px ;
+    color: rgb(49, 101, 197);
+}
+
+.twitter:hover {
+    background-color: aliceblue;
+}
+
+.gmail {
+    padding: 10px ;
+    color: darkred;
+}
+
+.gmail:hover {
+    background-color: aliceblue;
+}
+
+/* ------------------forgot your password-------------------------------------------------------------------------- */
+
+.body2 {
+    background-image: url(icon1.jpg);
+    background-size: 1700px;
+}
+
+.form2 {
+    border: 0px solid rgba(128, 128, 128, 0.621);
+    padding: 100px;
+    width: 175px;
+    margin: auto;
+    margin-top: 300px;
+    background-color: rgba(255, 255, 255, 0.649);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+}
+
+
+
+.input {
+    font-size: 25px;
+    padding: 8px 16px ;
+    border: gray solid 1px ;
+    border-radius: 15px;
+    width: 100%;
+    margin: auto;
+    margin-left: -15px;
+}
+.input:hover{
+border: 1px solid blue;
+}
+
+.submit {
+    font-size: 20px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: 0px solid;
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+.submit:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.473),0 17px 50px 0 rgba(0, 0, 0, 0.473);
+}
+
+/* ----------------------------------creat new account------------------------------------------------------------- */
+
+.body3 {
+    background-image: url(icon1.jpg);
+    background-size: 1700px;
+}
+
+.form3 {
+    border: 0px solid rgba(128, 128, 128, 0.621);
+    padding: 80px;
+    width: 750px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.649);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+}
+
+.name {
+    font-size: 25px;
+    padding: 14px 16px ;
+    border: gray solid 1px ;
+    border-radius: 20px;
+    margin: 0px 10px 5px;
+}
+
+.name:hover {
+    border: 1px solid blue;
+}
+
+.email2 {
+    font-size: 25px;
+    padding: 14px 50px ;
+    border: gray solid 1px ;
+    border-radius: 20px;
+    margin: 5px 10px;
+}
+
+.email2:hover {
+    border: 1px solid blue;
+}
+
+.pass2 {
+    font-size: 25px;
+    padding: 14px 16px ;
+    border: gray solid 1px ;
+    border-radius: 20px;
+    margin: 5px 10px;
+}
+
+.pass2:hover {
+    border: 1px solid blue;
+}
+
+.pass3 {
+    font-size: 25px;
+    padding: 14px 16px ;
+    border: gray solid 1px ;
+    border-radius: 20px;
+    margin: 5px 10px;
+}
+
+.pass3:hover {
+    border: 1px solid blue;
+}
+
+.birth {
+    font-size: 30px;
+    padding: 14px 16px ;
+    border-radius: 20px;
+    margin: 5px 60px;
+}
+
+.date {
+    font-size: 25px;
+    padding: 14px 50px ;
+    border: gray solid 1px ;
+    border-radius: 20px;
+    margin: 5px 70px 5px 75px;
+}
+
+.phone {
+    font-size: 25px;
+    padding: 14px 16px ;
+    border: gray solid 1px ;
+    border-radius: 20px;
+    margin: 5px 10px;
+}
+
+.phone:hover {
+    border: 1px solid blue;
+}
+
+.confirm {
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0564e0;
+    font-style: initial;
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+.confirm:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.473),0 17px 50px 0 rgba(0, 0, 0, 0.473);
+}
+
