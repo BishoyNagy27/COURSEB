@@ -1,5 +1,5 @@
 body {
-    background-image: url(../icon1.jpg);
+    background-image: url(icon1.jpg);
     background-size: 1700px;
     scroll-snap-stop:initial;
 }
@@ -25,6 +25,10 @@ header {
     font-weight: 700;
     font-size: 30px;
 
+}
+
+::selection {
+    color: #ff6f00;
 }
 
 .nav a {
@@ -65,10 +69,9 @@ form a {
     padding: 5px;
 }
 
-form a:hover {
+form a:focus {
     color: #2633f4;
-    background-color: rgba(0, 0, 255, 0.336);
-    border-radius: 10px ;
+    border-radius: 5px ;
 }
 
 footer {
